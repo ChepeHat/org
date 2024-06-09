@@ -1,0 +1,36 @@
+.footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 5%;
+    align-items: center;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.logo{
+    display: none;
+    order: 0;
+}
+
+
+.redes{
+    padding: 0px 15px;
+}
+
+
+@media only screen and (min-width: 750px) {
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        display: flex;
+    }
+}
